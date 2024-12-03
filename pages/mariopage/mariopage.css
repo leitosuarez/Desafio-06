@@ -1,0 +1,222 @@
+*{
+    border: 0;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e81464;
+    color: white;
+    margin: 50px 10%;
+    font-family: 'Roboto';
+}
+
+.container{
+    background-color: #c0145c;
+    width: 100%;
+    padding: 25px 35px;
+    border-radius: 5px;
+}
+
+/* VOLVER PAGINA PRINCIPAL */
+.volver-titulo{
+    display: flex;
+}
+
+.icono-hover{
+    color: #fafafa;
+}
+
+a:hover .icono-hover{
+    color: #f06494;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+/*  */
+
+h1{
+    font-size: 45px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* SECCIONES INFROMATIVAS  */
+section img{
+    border-radius: 10px;
+    margin: 10px 20px;
+    width: 35%;
+    border: 5px solid #f06494;
+}
+
+.section-1 img{
+    float: left;
+    width: 30%;
+    
+}
+
+.section-2 img{
+    float: right;     
+    
+}
+
+section{
+    
+    font-size: 20px;
+    overflow: hidden;
+    
+}
+
+section p{
+    padding-top: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+/*  */
+
+/* SECCION COMPRAR */
+.section-buy{
+    margin-top: 50px;
+    background-color: #f06494;
+    color: white;
+    padding: 20px 15px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px   ;
+}
+/*  */
+
+/* CABECERA DE LA SECCION COMPRAR */
+.producto-header{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 4px solid #c0145c;
+    padding: 0 5px;
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    
+}
+
+.producto-header > span:first-child{
+    width: 40%;;
+}
+
+.producto-header div{
+    min-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.producto-header div span{
+        max-width: 10%;
+}
+/*  */
+
+/* CONTENEDOR CARACTERISTICAS DEL PRODUCTO */
+.producto-caracteristicas{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0 5px;
+    padding-bottom: 10px;
+    border-bottom: 5px solid #c0145c;
+}
+/*  */
+
+/* PRODUCTO IMAGEN-NOMBRE */
+.producto{
+    width: 40%;
+    display: flex;
+    gap: 10%;
+
+}
+
+.producto img{
+    width: 35%;
+}
+
+.producto span{
+    max-width: 35%;
+    padding: 10% 0;
+    font-size: 90%;
+    display: flex;
+    align-items: center;
+}
+/*  */
+
+/* CONTENEDOR ATRIBUTOS */
+.atributos{
+    padding: 4% 0;
+    min-width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+    font-size: 17px;
+    max-width: 10%;
+}
+/*  */
+
+/* CONTENEDOR DE PRECIO-CANTIDAD-SUBTOTAL */
+.atributos div{
+    display: flex;
+    gap: 5px;
+    width: 13%;
+    justify-content: center;
+    align-items: center;
+    
+}
+/*  */
+
+/* BOTON DE INCREMENTO */
+.atributos div button{
+    width: 25%;
+    max-height: 25px;
+    background-color: #c0145c;
+    color: white;
+}
+/*  */
+
+/* ATRIBUTOS DEL CONTENEDOR ATRIBUTOS */
+.atributos span{
+    display: flex;
+    align-items: center;
+}
+/*  */
+
+
+.container-pagar{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container-pagar button{
+    font-size: 18px;
+    background-color: #c0145c;
+    color: white;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.container-pagar button:last-child{
+    background-color: #28b44c; 
+}
+
+.container-pagar button:last-child i{
+    padding-right: 10px;
+}
+
+.container-pagar button:hover{
+    cursor: pointer;
+    background-color: #e81464;
+}
+
+.container-pagar button:last-child:hover{
+    background-color: #00ad26;
+}
